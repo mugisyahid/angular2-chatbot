@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "heroku-prebuild": "npm install -g http-server",
   "heroku-postbuild": "ng build --prod",
-  "start": "http-server dist/",
+  "start": "http-server dist/"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14",
 
-	//not installed by default
+
 "@angular/cli": "1.4.5",
     "@angular/compiler-cli": "^4.2.4",
     "@angular/language-service": "^4.2.4",
