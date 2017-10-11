@@ -13,7 +13,7 @@ import * as moment from 'moment';
 
 // the person using the app us Juliet
 const me: User      = new User('Juliet', 'assets/images/avatars/male-avatar-1.png');
-const echo: User    = new User('Echo Bot', 'assets/images/avatars/female-avatar-1.png');
+const echo: User    = new User('Isma Bot', 'assets/images/avatars/female-avatar-1.png');
 
 const tEcho: Thread    = new Thread('tEcho', echo.name, echo.avatarSrc);
 
@@ -21,7 +21,7 @@ const initialMessages: Array<Message> = [
   new Message({
     author: echo,
     sentAt: moment().subtract(1, 'minutes').toDate(),
-    text: `Welcome Pleasant`,
+    text: `Greetings, Human`,
     thread: tEcho
   })
 ];
