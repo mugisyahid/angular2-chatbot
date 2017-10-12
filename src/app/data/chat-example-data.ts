@@ -12,7 +12,7 @@ import { BotService } from '../botservice/bot.service';
 import * as moment from 'moment';
 
 // the person using the app us Juliet
-const me: User      = new User('Juliet', 'assets/images/avatars/male-avatar-1.png');
+const me: User      = new User('Users', 'assets/images/avatars/male-avatar-1.png');
 const echo: User    = new User('Isma Bot', 'assets/images/avatars/female-avatar-1.png');
 
 const tEcho: Thread    = new Thread('tEcho', echo.name, echo.avatarSrc);
