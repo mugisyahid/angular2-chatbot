@@ -8,7 +8,7 @@
 
   <div class="messages"
     [ngClass]="{'msg-sent': !incoming, 'msg-receive': incoming}">
-    <p><div [innerHTML]="{{message.text}}"></div>
+    <p><div innerHTML="{{message.text}}"></div>
     <p class="time">{{message.author.name}} • {{message.sentAt | fromNow}}</p>
   </div>
 
